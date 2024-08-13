@@ -1,0 +1,453 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ /* top图box */
+
+ ul {
+     display: inline;
+ }
+
+ li {
+     display: inline;
+     list-style: none;
+ }
+
+ a {
+     text-decoration: none;
+ }
+
+ /* 导航栏链接css */
+ .ding {
+     z-index: 2;
+     float: left;
+     position: absolute;
+     /* position: relative; */
+     top: 0;
+     /* height: 41px; */
+     width: 100%;
+     /* width: 1920px; */
+     /* padding: 0 20px; */
+     /* background-color: rgb(166, 166, 169); */
+     /* background-color: rgb(246, 246, 246); */
+     text-align: center;
+     line-height: 36px;
+     color: #fff;
+     text-decoration: none;
+     /* background-image: url(logoa.png); */
+
+
+ }
+
+ .diyanhui {
+     margin-left: 10px;
+     margin-top: 7px;
+     margin-right: 8PX;
+ }
+
+ .shouye,
+ .chengyuan,
+ .jindubiao {
+     float: left;
+     height: 41px;
+     padding: 0 20px;
+     /* background-color: rgb(166, 166, 169); */
+     /* background-color: rgb(246, 246, 246); */
+     text-align: center;
+     line-height: 41px;
+     color: #ffffff;
+     text-decoration: none;
+     font-size: 13px;
+     /* background-image: url(logoa.png); */
+ }
+
+ .search {
+     float: left;
+     width: 200px;
+     height: 42px;
+     margin-left: 400px;
+ }
+
+ .search input {
+     outline: 0;
+     width: 150px;
+     height: 25px;
+     border-radius: 15px;
+     /* border: 1px solid rgba(212, 9, 9, 0.4); */
+     background-color: rgba(255, 255, 255, 0.523);
+     color: #d8d8d8;
+     font-size: 12px;
+     /* padding-left: 100px; */
+     /* padding: 0 auto; */
+     /* margin-top: 4px; */
+     margin: auto;
+     text-align: center;
+     vertical-align: middel;
+
+ }
+
+ .search input:hover {
+     transform-origin: center center;
+     transform: scale(1.8, 1);
+     /* width: 200px; */
+
+     /* height: 25px; */
+     /* background-color: aqua; */
+ }
+
+ .zhuce,
+ .denglu {
+     /* position: absolute; */
+     /* top: 0; */
+     /* right: 0; */
+     float: right;
+     /* position: absolute; */
+     height: 41px;
+     padding: 0 20px;
+     /* background-color: rgb(166, 166, 169); */
+     /* background-color: rgb(246, 246, 246); */
+     text-align: center;
+     line-height: 41px;
+     color: #ffffff;
+     text-decoration: none;
+     font-size: 13px;
+     /* background-image: url(logoa.png); */
+ }
+
+ /* .youce { */
+ /* position: relative; */
+ /* right:0; */
+ /* top:0; */
+ /* } */
+
+
+ /* 大厅图 */
+ .toutu {
+     position: relative;
+     /* top: 0; */
+     /* left: 0; */
+     /* height: 1080px; */
+     overflow: hidden;
+     /* width: 100%; */
+     height: 42px;
+     /* background-color: rgb(243, 243, 243); */
+     /* background-image: url(toutu2.jpg); */
+     /* background-image: url(../img/toutu3.png); */
+     background-size: 100%;
+     background-repeat: no-repeat;
+     /* background-position: center 100px; */
+     /* background-position: center; */
+     /* font: 12px 'Microsft YaHei'; */
+     /* background-color: rgb(44, 44, 48) */
+
+ }
+
+ .toututupian {
+     position: absolute;
+     top: -140px;
+     width: 100%;
+
+ }
+
+ video {
+     position: relative;
+     top: 0;
+     /* margin: auto; */
+     width: 85%;
+ }
+
+ .toutubiaoti {
+     /* z-index: index 3; */
+     position: absolute;
+     top: -500px;
+     left: 90px;
+     width: 100%;
+     height: 120px;
+     background-color: #7a2a2a;
+     margin: 0 auto;
+
+
+ }
+
+ .mingzi {
+     position: absolute;
+     top: 10px;
+     left: 50px;
+     color: #ffffff;
+     font-size: 100px;
+     /* background-color: aqua; */
+     /* text-align:center; */
+     /* margin: 0 auto; */
+
+
+ }
+
+ .mingzier {
+     position: absolute;
+     top: 90px;
+     left: 50px;
+     color: #ffffff;
+     font-size: 140px;
+     /* background-color: antiquewhite; */
+
+ }
+
+ .mingzisan {
+     position: absolute;
+     top: 280px;
+     left: 54px;
+     color: #ffffff;
+     font-size: 20px;
+     /* background-color: antiquewhite; */
+ }
+
+ .box {
+     overflow: hidden;
+     height: 1800px;
+     margin-top: 0;
+     /* margin: 0 auto; */
+     /* background-color: rgb(14, 178, 199); */
+
+ }
+
+ .diban {
+     position: relative;
+     width: 80%;
+     height: 960px;
+     /* background-color: #010a17; */
+     margin: 0 auto;
+ }
+
+ .lin {
+     position: absolute;
+     top: 0;
+     left: 0;
+     display: block;
+     height: 415px;
+     width: 740px;
+     margin: 0 auto;
+ }
+
+ .caijianshipin {
+     position: relative;
+     top: 80px;
+     left: 50px;
+     overflow: hidden;
+     height: 415px;
+     width: 740px;
+     border-radius: 20px;
+     /* background-color: aqua; */
+
+ }
+
+ .biaoti {
+     position: absolute;
+     top: 20px;
+     left: 50px;
+     font-size: 25px;
+     color: #ffffff;
+ }
+
+ .touxiang {
+     overflow: hidden;
+     position: absolute;
+     top: 20px;
+     left: 910px;
+     height: 45px;
+     width: 45px;
+     border-radius: 40px;
+     background-color: #fff;
+ }
+
+ .touxiangtu {
+     width: 100%;
+ }
+
+ .gonglue {
+     position: absolute;
+     top: 520px;
+     left: 50px;
+     font-size: 16px;
+     color: #ffffff;
+ }
+
+ .houqi {
+     position: absolute;
+     top: 550px;
+     left: 50px;
+     font-size: 16px;
+     color: #ffffff;
+ }
+
+ .nicheng {
+     position: absolute;
+     top: 20px;
+     left: 970px;
+     font-size: 16px;
+     color: #ffffff;
+ }
+
+ .shijian {
+     position: absolute;
+     top: 42px;
+     left: 970px;
+     font-size: 12px;
+     color: #ffffff;
+ }
+
+ .tiyi {
+     position: absolute;
+     top: 590px;
+     left: 50px;
+     font-size: 16px;
+     color: #ffffff;
+ }
+
+ .zhanshi {
+     position: relative;
+     top: -1740px;
+     left: 1400px;
+     width: 600px;
+     height: 550px;
+     /* background-color: #7a2a2a; */
+ }
+
+ .zhanshitu {
+     display: inline;
+     position: absolute;
+     float: right;
+     height: 100%;
+     top: 10px;
+     left: -460px;
+     /* background-color: aqua; */
+ }
+
+
+ .ganyuan {
+     position: absolute;
+     top: 660px;
+     left: 196px;
+     width: 200px;
+     height: 100px;
+     /* background-color: #7a2a2a; */
+ }
+
+ .ganyuan1,
+ .ganyuan2,
+ .ganyuan3 {
+     float: left;
+     overflow: hidden;
+     position: relative;
+     /* position: absolute; */
+     /* top: 0; */
+     /* left: 0; */
+     width: 50px;
+     height: 50px;
+     margin-right: 12px;
+     border-radius: 15px;
+     background-color: #ffffff;
+ }
+
+ .ganyuanlin {
+     float: left;
+     overflow: hidden;
+     position: absolute;
+     /* position: absolute; */
+     top: -9px;
+     left: -100px;
+     width: 600%;
+     /* height: 50px; */
+     margin-right: 12px;
+     /* border-radius: 15px; */
+     /* background-color: #ffffff; */
+ }
+
+ .ganyuanke {
+     float: left;
+     overflow: hidden;
+     position: absolute;
+     /* position: absolute; */
+     top: -15px;
+     left: -90px;
+     width: 500%;
+     /* height: 50px; */
+     margin-right: 12px;
+     /* border-radius: 15px; */
+     /* background-color: #ffffff; */
+ }
+
+ .ganyuanhei {
+     float: left;
+     overflow: hidden;
+     position: absolute;
+     /* position: absolute; */
+     top: -10px;
+     left: -136px;
+     width: 650%;
+     /* height: 50px; */
+     margin-right: 12px;
+     /* border-radius: 15px; */
+     /* background-color: #ffffff; */
+ }
+
+ body {
+     /* background-color: rgb(243, 243, 243); */
+     /* background-image: url(toutu2.jpg); */
+     background-image: url(../img/27_i2245.png);
+     background-size: 100%;
+     background-repeat: no-repeat;
+     background-color: #161616;
+
+ }
+
+ .diyanhui {
+     float: left;
+ }
+
+ .logo {
+     float: left;
+ }
+
+ .ding a:hover {
+     background-color: rgb(231, 232, 233);
+     color: rgb(36, 36, 36);
+ }
+
+ p {
+     color: #fff;
+     font-size: 16px;
+ }
+
+ /* 主线css */
+ .zhuti {
+     position: absolute;
+     top: 0;
+     left: 0;
+     font-size: 40px;
+     color: #000000;
+     text-align: center;
+     padding: 0 auto;
+     /* margin-top: 80px; */
+     /* margin-bottom: 70px; */
+     /* background-color: aquamarine; */
+ }
+
+
+
+ .dibu {
+
+     height: 40px;
+     /* background-color: #e8e8e8; */
+
+ }
+
+ .di {
+
+     bottom: 10px;
+     text-align: center;
+     padding-top: 40px;
+     color: #000;
+     font-size: 12px;
+     background-color: #fff;
+ }
